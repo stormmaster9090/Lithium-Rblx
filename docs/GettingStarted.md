@@ -42,4 +42,13 @@ local new = toggle.NewToggle({
 })
 new.GetFrame().Parent = script.Parent
 ```
-now that you know how to create the toggle we can move on.
+This returns type: Toggle
+
+```luau
+export type Toggle = {
+	GetFrame: () -> (GuiObject),
+	ChangeText: (string) -> (),
+	OnClick: () -> (boolean)
+}
+
+```
