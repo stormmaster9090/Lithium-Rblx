@@ -10,7 +10,7 @@ once you have the modules installed where you want: replicated storage or somewh
 local Module = require(game:GetService("ReplicatedStorage").Lithium.Toggle)
 ```
 
-### Toggle
+## Toggle
 
 The toggle is used for basic on/off input and will fire a function when its been pressed.
 here is how to use the toggle:
@@ -52,3 +52,5 @@ export type Toggle = {
 }
 
 ```
+
+## Input
