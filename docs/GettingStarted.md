@@ -30,3 +30,16 @@ Below is code that generates a single toggle and places it into a scrolling fram
 > [!Important]
 > The Toggles X size is set to 1,0 so that it fills any scrolling frame its placed into.
 > This means that placing it outside a scrolling frame will make it look bad, this can be edited in the INIT module
+
+```luau
+local new = toggle.NewToggle({
+	Text = "NothingHere",
+	Theme = "dark",
+	DefaultOn = true,
+	OnClick = function(NewValue)
+		print(NewValue)
+	end,
+})
+new.GetFrame().Parent = script.Parent
+```
+now that you know how to create the toggle we can move on.
