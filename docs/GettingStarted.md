@@ -61,7 +61,7 @@ You CAN change this but it means that the toggle will not expand to fit scrollin
 
 ```luau
 module.Size = {
-	["FrameSizeToggle"] = UDim2.new(1,0,-0.164,100),
+	["FrameSizeToggle"] = UDim2.new(1,0,-0.164,100),  -- <-- Here
 	["ButtonSizeToggle"] = UDim2.new(0,76,0,23),
 	["ButtonPosToggle"] = UDim2.new(0.849,0,0.5,0),
 	["ButtonLabelSize"] = UDim2.new(0,154,0,30),
