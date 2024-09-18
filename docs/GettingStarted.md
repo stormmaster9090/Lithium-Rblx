@@ -53,4 +53,21 @@ export type Toggle = {
 
 ```
 
+## INIT
+
+This isnt as important but it does allow you to customize some of the default things about the modules.
+above its stated that the X size of a toggle is 1,0.
+You CAN change this but it means that the toggle will not expand to fit scrolling frames or frames with UIlistlayout or UIgridlayout.
+
+```luau
+module.Size = {
+	["FrameSizeToggle"] = UDim2.new(1,0,-0.164,100),
+	["ButtonSizeToggle"] = UDim2.new(0,76,0,23),
+	["ButtonPosToggle"] = UDim2.new(0.849,0,0.5,0),
+	["ButtonLabelSize"] = UDim2.new(0,154,0,30),
+	["ButtonLabelPos"] = UDim2.new(0,0,0,0),
+}
+```
+Above shows the parts related to the toggle sizes.
+
 ## Input
