@@ -54,8 +54,8 @@ export type Toggle = {
 ```
 
 ## INIT
-
-This isnt as important but it does allow you to customize some of the default things about the modules.
+> [!Note]
+> This isnt as important but it does allow you to customize some of the default things about the modules.
 above its stated that the X size of a toggle is 1,0.
 You CAN change this but it means that the toggle will not expand to fit scrolling frames or frames with UIlistlayout or UIgridlayout.
 
