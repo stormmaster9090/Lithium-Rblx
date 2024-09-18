@@ -27,7 +27,7 @@ export type ToggleProps = {
 ```
 Below is code that generates a single toggle and places it into a scrolling frame with a UI list layout.
 
-> [!Important]
+> [!Caution]
 > The Toggles X size is set to 1,0 so that it fills any scrolling frame its placed into.
 > This means that placing it outside a scrolling frame will make it look bad, this can be edited in the INIT module
 
