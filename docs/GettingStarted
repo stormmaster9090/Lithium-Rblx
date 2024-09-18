@@ -1,6 +1,6 @@
 # Getting started with Lithium
 
 First off go ahead and grab a copy of the modules, you can get it from importing the github (will be explained later)
->[!Warning]
->Lithium has to be the parent container of all the modules, it will be broken if that is not the case.
+> [!Warning]
+> Lithium has to be the parent container of all the modules, it will be broken if that is not the case.
 
