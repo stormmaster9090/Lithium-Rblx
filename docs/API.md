@@ -61,6 +61,6 @@ Text = "Off"
 Note: make sure to pass a function with a parameter (e) or (newvalue) if you dont a default function will be used
 
 > [!Note]
-> .ChangeText() and .GetFrame() are in the process of being changed to a ':' Method, and allowing for other parameters to be passed on the former
+> .ChangeText() and .GetFrame() are in the process of being changed to a Method, and allowing for other parameters to be passed on the former
 
 
