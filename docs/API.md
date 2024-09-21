@@ -63,4 +63,23 @@ Note: make sure to pass a function with a parameter (e) or (newvalue) if you don
 > [!Note]
 > .ChangeText() and .GetFrame() are in the process of being changed to a Method, and allowing for other parameters to be passed on the former
 
-##### Creating for plugins
+#### Creating for plugins
+Lithium is primarily designed for plugins but the module lacks any use of settingd() for the specific reason that a person may want to use lithium to create ingame UI
+
+To accurately get the users current studio theme and create UI accordingly to it you could do this
+> Do note that :ChangeTheme(Theme: string) is in progress.
+
+```luau
+local Theme = settings().Studio.Theme
+if Theme == "light" then
+local new = toggle.NewToggle({
+	Text = "NothingHere",
+	Theme = "light",
+	DefaultOn = true,
+	OnClick = function(NewValue)
+		print(NewValue)
+	end,
+})
+end
+-- this will create a light toggle
+```
