@@ -63,4 +63,4 @@ Note: make sure to pass a function with a parameter (e) or (newvalue) if you don
 > [!Note]
 > .ChangeText() and .GetFrame() are in the process of being changed to a Method, and allowing for other parameters to be passed on the former
 
-#### Creating for plugins
+##### Creating for plugins
