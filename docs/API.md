@@ -83,3 +83,4 @@ local new = toggle.NewToggle({
 end
 -- this will create a light toggle
 ```
+It is advisable that you listen the ThemeChanged Event so that you can refresh the UI
