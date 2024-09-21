@@ -37,7 +37,12 @@ local new = toggle.NewToggle({
 ```
 All parameters are mandatory.
 
-You can get the toggle UI by calling ```:GetFrame()``` 
+You can get the toggle UI by calling ```.GetFrame()``` 
 ```luau
 new.GetFrame().Parent = script.Parent
+```
+
+You can change the text of the toggle with ```.ChangeText(str)```
+```luau
+new.ChangeText("hello)
 ```
