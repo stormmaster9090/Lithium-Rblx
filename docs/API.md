@@ -97,4 +97,13 @@ The .NewColor3 takes selectorprops.
 |  Theme  | String  |
 |  OnChange  | () -> ()  |
 
+### Type: Color3Selector
+
+| PropParam  | Type |
+| ------------- | ------------- |
+|  OnChange  |  () -> (Color3)  |
+|  ChangeColor  | (Color3) -> ()  |
+
+
+
 
