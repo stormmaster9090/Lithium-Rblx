@@ -50,3 +50,11 @@ new.ChangeText("hello)
 > Upon the creation of a Toggle object all of the functionality is handled within the module,
 > this is more convinient but harder to customize
 
+Toggles will also display their current value via text on the button
+```
+-- True:
+Text = "On"
+
+-- False :
+Text = "Off"
+```
