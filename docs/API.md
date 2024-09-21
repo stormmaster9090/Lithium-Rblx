@@ -63,4 +63,6 @@ Note: make sure to pass a function with a parameter (e) or (newvalue) if you don
 > [!Note]
 > .ChangeText() and .GetFrame() are in the process of being changed to a Method, and allowing for other parameters to be passed on the former
 
+>[!Tip]
+>If you are creating a plugin try using StudioService to get the users theme and then creating the UI accordingly.
 
