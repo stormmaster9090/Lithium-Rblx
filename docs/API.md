@@ -84,3 +84,17 @@ end
 -- this will create a light toggle
 ```
 It is advisable that you listen the ThemeChanged Event so that you can refresh the UI
+
+## Color3 Selector
+
+The Color3 Selector allows users to input numbers into 3 boxes to respectively create a Color3 value.
+The .NewColor3 takes selectorprops.
+
+### Type: SelectorProps
+| PropParam  | Type |
+| ------------- | ------------- |
+|  DefaultColor  |  Color3  |
+|  Theme  | String  |
+|  OnChange  | () -> ()  |
+
+
