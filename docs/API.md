@@ -58,3 +58,4 @@ Text = "On"
 -- False :
 Text = "Off"
 ```
+Note: make sure to pass a function with a parameter (e) or (newvalue) if you dont a default function will be used
