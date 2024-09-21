@@ -51,7 +51,7 @@ new.ChangeText("hello)
 > this is more convinient but harder to customize
 
 Toggles will also display their current value via text on the button
-```
+```luau
 -- True:
 Text = "On"
 
