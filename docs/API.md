@@ -13,3 +13,8 @@ you can view the getting started file to understand the main idea.
 
 
 ### Type: Toggle
+| PropParam  | Type |
+| ------------- | ------------- |
+|  GetFrame  |  () -> (GuiObject)  |
+|  ChangeText  | (String) -> ()  |
+|  OnClick  | () -> (Boolean)  |
