@@ -38,3 +38,6 @@ local new = toggle.NewToggle({
 All parameters are mandatory.
 
 You can get the toggle UI by calling ```:GetFrame()``` 
+```luau
+new.GetFrame().Parent = script.Parent
+```
