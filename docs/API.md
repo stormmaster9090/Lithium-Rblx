@@ -46,3 +46,7 @@ You can change the text of the toggle with ```.ChangeText(str)```
 ```luau
 new.ChangeText("hello)
 ```
+> [!Important]
+> Upon the creation of a Toggle object all of the functionality is handled within the module,
+> this is more convinient but harder to customize
+
