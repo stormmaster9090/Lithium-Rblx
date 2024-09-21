@@ -18,3 +18,4 @@ you can view the getting started file to understand the main idea.
 |  GetFrame  |  () -> (GuiObject)  |
 |  ChangeText  | (String) -> ()  |
 |  OnClick  | () -> (Boolean)  |
+
