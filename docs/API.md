@@ -19,3 +19,20 @@ you can view the getting started file to understand the main idea.
 |  ChangeText  | (String) -> ()  |
 |  OnClick  | () -> (Boolean)  |
 
+### Creating a new toggle
+
+You can use the following code to create a new toggle with the defined variables inside the prop.
+here is an example.
+```luau
+local toggle = require(game.ReplicatedStorage.Lithium.Toggle)
+
+local new = toggle.NewToggle({
+	Text = "NothingHere",
+	Theme = "dark",
+	DefaultOn = true,
+	OnClick = function(NewValue)
+		print(NewValue)
+	end,
+})
+```
+All parameters are mandatory.
