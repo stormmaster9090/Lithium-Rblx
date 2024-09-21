@@ -19,11 +19,6 @@ you can view the getting started file to understand the main idea.
 |  ChangeText  | (String) -> ()  |
 |  OnClick  | () -> (Boolean)  |
 
-#### Functions
- GetFrame()    | :exclamation:  This is very important   |
-               |-----------------------------------------|
-
-
 ### Creating a new toggle
 
 You can use the following code to create a new toggle with the defined variables inside the prop.
