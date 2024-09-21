@@ -20,8 +20,8 @@ you can view the getting started file to understand the main idea.
 |  OnClick  | () -> (Boolean)  |
 
 #### Functions
-| :exclamation:  This is very important   |
-|-----------------------------------------|
+ GetFrame()    | :exclamation:  This is very important   |
+               |-----------------------------------------|
 
 
 ### Creating a new toggle
