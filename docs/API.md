@@ -8,8 +8,8 @@ you can view the getting started file to understand the main idea.
 | ------------- | ------------- |
 |  Text  |  String  |
 |  Theme  | String  |
-|  Theme  | String  |
-|  Theme  | String  |
+|  OnClick  | () -> ()  |
+|  DefaultOn  | Boolean  |
 
 
 ### Type: Toggle
