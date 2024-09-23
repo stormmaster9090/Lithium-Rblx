@@ -14,6 +14,7 @@ module.Size = {
 	["ButtonPosToggle"] = UDim2.new(0.849,0,0.5,0),
 	["ButtonLabelSize"] = UDim2.new(0,154,0,30),
 	["ButtonLabelPos"] = UDim2.new(0,0,0,0),
+	["SizeFrameColorSelection"] = UDim2.new(1,0,0.026,100)
 }
 
 function module.GetUIAddOns(Type: string): (UICorner, UIStroke)
@@ -35,4 +36,3 @@ end
 
 
 return module
-
