@@ -122,5 +122,6 @@ n3.GetFrame().Parent = script.Parent
 ```
 Use ```GetFrame()``` to get the actual color selector from the Color3Selector type.
 
-
+Again everything is handled by the module,
+when the color or is changed (via the textboxes) a signal will fire with a color3 value.
 
