@@ -104,13 +104,23 @@ The .NewColor3 takes selectorprops.
 |  OnChange  |  () -> (Color3)  |
 |  ChangeColor  | (Color3) -> ()  |
 
-#### Creating your color selector
+### Creating your color selector
 
 Below is a snippet that would generate a color selector and parent it to a scrollingframe
 > [!Warning]
 > Like the other types, (toggle) the X size is 1,0 so this should be parented to a scrolling frame or frame witha  UIlistlayout
 ```luau
+local n3 = ColorSelection.new({
+	DefaultColor = Color3.fromRGB(11,33,255),
+	OnChange = function(Color)
+		print(Color)
+		script.Parent.ColorSelect.BackgroundColor3 = Color
+	end,
+	Theme = "dark"
+})
+n3.GetFrame().Parent = script.Parent
 ```
+Use ```GetFrame()``` to get the actual color selector from the Color3Selector type.
 
 
 
