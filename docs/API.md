@@ -125,3 +125,8 @@ Use ```GetFrame()``` to get the actual color selector from the Color3Selector ty
 Again everything is handled by the module,
 when the color or is changed (via the textboxes) a signal will fire with a color3 value.
 
+#### Creating for plugins.
+Using the settings function you can create or refresh objects when :ChangeTheme() or :Refresh() is released.
+```local Theme = settings().Studio.Theme```
+
+
