@@ -1,7 +1,7 @@
-# Lithium-PluginUI
-Create smooth, simple and efficient plugin UIS with lithium, you can use this to create normal UI too!
+#lithium
+lithium is a library of module scripts organized to create UI only by code.
 
-Create simple but nice UI with the provided modules,
-Read the Pages to understand how to import into studio and how to create with the props.
--- Currently in closed testing, only checkbox exists or works --
+###creating with lithium
+lithium creates buttons, selectors, and input UI objects from their modules, and takes a props table
 
+note: you can use lithium to create "normal" non plugin UI as lithium does not automatically theme the objects based on studio theme 
