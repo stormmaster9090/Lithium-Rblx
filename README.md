@@ -1,7 +1,7 @@
 # lithium
 lithium is a library of module scripts organized to create UI only by code.
 
->!IMPORTANT
+>[!IMPORTANT]
 >Lithium has been disccontiued, All avaliable modules inside SRC work but require the INIT module. 
 
 ### creating with lithium
